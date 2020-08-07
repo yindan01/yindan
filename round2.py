@@ -3,7 +3,7 @@
 hp代表血量，power代表攻击力，hp的初始值为1000
 power的吃食值为200，打斗多个回和
 定义一个fight方法：
-my_hp=hp-enemy_power
+my_hp=hp-
 eney_final_hp=enemy_hp-my_power
 谁的hp先为0，那么谁就输了
 """
