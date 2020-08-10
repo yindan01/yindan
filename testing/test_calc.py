@@ -4,7 +4,9 @@ import pytest
 import yaml
 
 from pythoncode.calc import  Calculator
-with open('./datas/calc.yml') as f:
+import os
+yamlfilepath=os.path.dirname(__file__)+"/datas/calc.yml"
+with open(yamlfilepath) as f:
     datas=yaml.safe_load(f)['add']
     adddatas=datas['datas']
     print(adddatas)
